@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+#logo {
+  height: 33px;
+  width: 268px;
+}
+* {
+  top: 0;
+}
+body {
+  margin-top: 0px;
+}
+header {
+  position: sticky;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+}
+
+/* .nav {
+  display: flex;
+} */
+
+.nav > li {
+  display: inline-block;
+  padding: 0px 10px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: gray;
+  font-family: Roboto;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+a:hover {
+  color: rgb(0, 179, 155);
+}
+#dep {
+  position: relative;
+}
+.sub-menu {
+  position: absolute;
+  display: none;
+  /* border: 1px solid black; */
+  margin-top: 25px;
+  width: 200px;
+  margin-left: -120px;
+}
+.sub-menu ul li {
+  list-style: none;
+}
+#dep:hover .sub-menu {
+  display: block;
+}
+
+.Main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.paragraphe {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: center;
+  /* width: 1000px; */
+  font-family: Roboto;
+  color: rgb(116, 116, 116);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 20px;
+}
+h1 {
+  font-family: Roboto;
+  color: rgb(0, 179, 155);
+  font-size: 34px;
+  font-weight: 300;
+  line-height: 44.2px;
+}
+.p1 {
+  margin-right: 10px;
+  width: 500px;
+}
+.p2 {
+  margin-left: 10px;
+  width: 500px;
+}
+#main2{
+/* border: 1px solid black; */
+  display: flex;
+  width: 100%;
+ margin-left: 20%;
+  justify-items: center;
+  height: 50vh;
+
+}
+#main2 div{
+  width: 311px;
+  height: 345px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 15px;
+}
+
+#patients {
+  background-color: #00CCBA;
+
+}
+#doctors{
+  background-color: #3d83df;
+ 
+}
+#clinics{
+  background-color: #1B2734;
+}
+.card {
+  display: flex;
+  border-radius: 10px;
+ align-content: center;
+ justify-items: center;
+
+}
+
+.card img{
+  height: 50px;
+  width: 50px;
+}
+.card p{
+  font-family: Arial, Helvetica, sans-serif;
+  color:  rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 33.8px;
+}
+.card > h1{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+}
+.card select{
+  font-family: Roboto;
+  font-size: 19.2px;
+  text-decoration: underline;
+  text-decoration-color: white;
+  color:black;
+  border-radius: 0%;
+  border-width: 0ch;
+}
+.card select option{
+  background-color: white;
+}
+#patients select{
+  background-color: #00CCBA;;
+
+}
+#doctors select{
+  background-color: #3d83df;
+}
+#clinics select{
+  background-color: #1B2734;
+}
+#main3{
+  display: flex;
+  width: 1015px;
+  margin-top: 15px;
+  justify-content: space-around;
+  width: 100%;
+ margin-left: 10%;
+
+}
+#main3 h1{
+  font-family: Roboto;
+  color: rgb(0, 179, 155);
+  font-size: 26px;
+  font-weight: 300;
+  line-height: 33.8px;
+}
+.brands__logos{
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  flex-wrap: wrap;
+}
+.brands__logos tuotempo img{
+  filter: grayscale(100%);
+}
+.brands__logos tuotempo:hover{
+  filter: grayscale(0);
+}
+.brands__logos gipo img{
+  filter: grayscale(100%);
+}
+.brands__logos gipo:hover{
+  filter: grayscale(0);
+}
+.brands__logos cliniccloud img{
+  filter: grayscale(100%);
+}
+.brands__logos clinicloud:hover{
+  filter: grayscale(0);
+}
+.brands__logos jameda img{
+  filter: grayscale(100%);
+}
+.brands__logos jameda:hover{
+  filter: grayscale(0);
+}
+svg {
+width: 135px;
+height: 35px;
+fill:  #747474;
+}
+svg:hover{
+fill: #00CCBA;
+}
+#main4{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#writing{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#statistics{
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+#statistics div {
+  background-color: white;
+  align-content: center;
+}
+.writing p{
+  font-family: Roboto;
+font-size: 13px;
+font-weight: 400;
+line-height: 16.9px;
+color: rgb(116, 116, 116);
+}
